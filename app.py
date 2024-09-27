@@ -31,17 +31,39 @@ if service == "great":
     print("25% tip") """
 
 #CHALLENGE 4
-def find_factors(n):
-    if n < 1:
-        return "enter a number."
+""" def find_factors(n):
+    if n <= 0:
+        return "Please enter a number."
     
     factors = []
-    for i in range(1, n + 1):
+    for i in range(2, n + 1):
         if n % i == 0:
             factors.append(i)
-    
     return factors
 
-# Example usage:
-number = 28
-print(f"The factors of {number} are: {find_factors(number)}")
+def factor():
+    number = int(input("Enter a number: "))
+    print(f"The factors of {number} are: {find_factors(number)}")
+factor() """
+
+#CHALLENGE 5
+
+#Python Mad Libs Project
+
+# Step 1: Receive user input
+""" verb1 = input("Enter a verb: ")
+verb2 = input("Enter another verb: ")
+noun1 = input("Enter a noun: ")
+number = input("Enter a number: ")
+celebrity_guest = input("Enter a celebrity name: ")
+food = input("Enter a food: ")
+
+# Step 2: Create the madlib story using f-string
+madlib = f """"""
+First day of school and suddenly {celebrity_guest} showed up to lunch. And everyone was so surprised, but {noun1} punched {celebrity_guest} 
+and they started to run after each other! {noun1} {verb1} and then she {verb2} and chased her through the playground. But when {noun1} tripped, {celebrity_guest} ranned away!
+And then {celebrity_guest} went back to school to eat {number} amount of {food}
+"""
+
+""" # Step 3: Print the madlib
+print(madlib) """
