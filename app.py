@@ -39,31 +39,21 @@ else:
     print("x is not") """
 
 #CHALLENGE 3
-def calculate_tip(bill):
-    service = input("How was the service? (bad, okay, good, great): ").lower()
+""" def calculate_tip(bill):
+    service = input("How was the service? (bad, okay, good, great): ")
     tip_percentages = {
         'bad': 0.0,
         'okay': 0.15,
         'good': 0.20,
         'great': 0.25
     }
-
-    # Get the appropriate tip percentage
-    tip_percentage = tip_percentages.get(service, None)
-
-    if tip_percentage is None:
-        print("Invalid service rating. Please enter bad, okay, good, or great.")
-        return
-
-    # Calculate the tip
+    tip_percentage = tip_percentages.get(service)
     tip = bill * tip_percentage
+    bill_tip = bill + tip
+    print(f"For a bill of ${bill:.2f}, the tip is ${tip:.2f}, the whole bill (including tips) is ${bill_tip}.")
 
-    # Print the tip
-    print(f"For a bill of ${bill:.2f}, the tip is ${tip:.2f} ({int(tip_percentage * 100)}%).")
-
-# Example usage
-bill = 100.00  # Example bill amount
-calculate_tip(bill)
+bill = 100.00
+calculate_tip(bill) """
 
 #CHALLENGE 4
 """ def find_factors(n):
