@@ -72,7 +72,7 @@ def factor():
 factor() """
 
 #CHALLENGE 5
-""" def greatest_common_factor(a,b):
+def greatest_common_factor(a,b):
     while b:
         a, b = b, a % b
     return abs(a)
@@ -85,4 +85,3 @@ try:
     print(f"The greatest common factor of {num1} and {num2} is: {gcf}")
 except ValueError:
     print("Please type a number: ")
- """
