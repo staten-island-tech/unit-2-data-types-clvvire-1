@@ -72,16 +72,14 @@ def factor():
 factor() """
 
 #CHALLENGE 5
-def greatest_common_factor(a,b):
+""" def greatest_common_factor(a,b):
     while b:
         a, b = b, a % b
-    return abs(a)
+    return a
 
-try:
-    num1 = int(input("Enter the first number: "))
-    num2 = int(input("Enter the second number: "))
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
     
-    gcf = greatest_common_factor(num1, num2)
-    print(f"The greatest common factor of {num1} and {num2} is: {gcf}")
-except ValueError:
-    print("Please type a number: ")
+gcf = greatest_common_factor(num1, num2)
+print(f"The greatest common factor of {num1} and {num2} is: {gcf}")
+ """
